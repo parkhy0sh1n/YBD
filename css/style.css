@@ -428,6 +428,12 @@ font-family: 'Lobster', cursive;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
+@media (max-width: 844px) {
+  .polaroid {
+    width: 120px;
+    height: 200px;
+  }
+}
 .polaroid img,
 .polaroid .img {
   width: 100%;
