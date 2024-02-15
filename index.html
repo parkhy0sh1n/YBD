@@ -21,13 +21,20 @@
 </head>
 <body>
 	<br> <br> <br> <br> <br>
+		<style>
+		@media only screen and (max-width: 844px) {
+			#play {
+				font-size: 15px; /* 원하는 폰트 크기로 조정하세요 */
+			}
+		}
+	</style>
 	<div class="container">
         <div class="row">
             <div class="loader">
                 <button id="play"></button>
 				<script>
 					function updateCountdown() {
-						const targetDate = new Date('2024-02-15T11:18:00+09:00').getTime();
+						const targetDate = new Date('2024-02-15T11:28:00+09:00').getTime();
 				
 						setInterval(() => {
 							const currentDate = new Date().getTime();
