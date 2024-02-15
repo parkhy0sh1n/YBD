@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="theme-color" content="#F26B38">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="theme-color" content="#F26B38">
 
-	<title>YBD</title>
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
-	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-	<link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="css/style.css">
+    <title>YBD</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<br> <br> <br> <br> <br>
@@ -26,31 +26,23 @@
             <div class="loader">
                 <button id="play"></button>
 				<script>
-					// Function to calculate and display countdown
 					function updateCountdown() {
-						// Target date: February 15, 2024
 						const targetDate = new Date('2024-02-15T00:00:00+09:00').getTime();
 				
-						// Update every second
 						setInterval(() => {
-							// Current date
 							const currentDate = new Date().getTime();
 				
-							// Calculate the remaining time
 							const remainingTime = targetDate - currentDate;
 				
-							// Calculate days, hours, minutes, and seconds
 							const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
 							const hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 							const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
 							const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
 				
-							// Display the countdown
 							document.getElementById('play').innerText = `${days}일 ${hours}시간 ${minutes}분 ${seconds}초`;
 						}, 1000);
 					}
 				
-					// Call the function initially to start the countdown
 					updateCountdown();
 				</script>
             </div>
@@ -80,27 +72,6 @@
 			<div class="wrap">
 				<center><p class="animated infinite wobble"><b><u>Yeppy Birthday!</b></u></p><center>
 				<p style="font-size: 13px;">
-					안녕 누나!<br><br>
-					우리가 함께한 이래로 누나의 두 번째 생일을 맞이하네.<br>
-					나에게는 오늘에 오기까지 흐른 시간이 벌써 1년이 지났구나와<br>
-					이제 1년이 지났구나가 공존하는 것 같아.<br>
-					하늘의 그림자에 묻힌 해넘이가<br>
-					우리의 시간을 부드럽게 감싼 듯한 느낌이야.<br>
-					생일을 맞아 누나의 눈에 비치는 빛이<br>
-					하루하루 더 따스해져가는 것 같아.<br><br>
-					작은 순간들이 모여 펼쳐지는 우리 이야기는 소박하지만 아릅답고<br>
-					뜨거운 차 한잔의 향처럼 누나와 함께 하는 모든 순간이 달콤해.<br><br>
-					잊을 수 없는 하루하루 우리의 소중한 기억들이<br>
-					이번 생일을 더욱 특별하게 만들어주었고,<br>
-					책상 위에 흩어진 작은 꽃잎처럼 우리 이야기가 아름답게 피어나<br>
-					생일을 맞아 바람처럼 자유롭게 펼쳐진 누나와<br>
-					앞으로 함께하는 모든 날이 더 행복할 것만 같아.<br><br>
-					같이 걷던 작은 길에서 느껴지는 따뜻한 햇살과 새벽 바람처럼<br>
-					내가 누나 곁에 있음으로 축복하는 작은 소망들이<br>
-					하나둘씩 이루어지길 바라며,<br>
-					작고 소박하지만 진실된 마음이<br>
-					나에게 하나 뿐인 누나에게 전해지길 바라.<br><br>
-					소중한 예나, 생일 축하해 <i class="em-svg em-heart"></i>
 				</p>
 			</div>
 		</div>
@@ -115,7 +86,7 @@
 						<div class="fuego"></div>
 						<div class="fuego"></div>
 					</div>
-					<svg id="cake" version="1.1" x="0px" y="0px" width="290px" height="500px" viewBox="0 0 200 500" enable-background="new 0 0 200 500" xml:space="preserve">
+					<svg id="cake" version="1.1" x="0px" y="0px" width="250px" height="500px" viewBox="0 0 200 500" enable-background="new 0 0 200 500" xml:space="preserve">
 						<path fill="#a88679" d="M173.667-13.94H26.333c-3.999 0-4-16.002 0-16.002h147.334c4 0 4.001 16.002 0 16.002z">
 							<animate id="e" attributeName="d" calcMode="spline" keySplines="0 0 1 1; 0 0 1 1" begin="a.end" dur="0.3s" fill="freeze" values="M173.667-13.94c-49.298,0-102.782,0-147.334,0c-3.999,0-4-16.002,0-16.002 c44.697,0,96.586,0,147.334,0C177.667-29.942,177.668-13.94,173.667-13.94z ; M173.667,411.567c-47.995,12.408-102.955,12.561-147.334,0 c-3.848-1.089-0.189-16.089,3.661-15.002c44.836,12.66,90.519,12.753,139.427,0.07 C173.293,395.631,177.541,410.566,173.667,411.567z ; M173.667,427.569c-49.795,0-101.101,0-147.334,0c-3.999,0-4-16.002,0-16.002 c46.385,0,97.539,0,147.334,0C177.668,411.567,177.667,427.569,173.667,427.569z"/>
 						</path>
